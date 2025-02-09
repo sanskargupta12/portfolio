@@ -9,7 +9,7 @@
         @import url("https://fonts.googleapis.com/css2?family=Caudex&display=swap");
 
 :root {
-  --clr-background: rgb(247, 244, 244);
+  --clr-background: rgb(244, 246, 247);
   --clr-gray: rgb(119, 114, 114);
   --font-main: "Caudex", serif;
   --clr-dark-gray: #262626;
@@ -598,7 +598,80 @@ padding: 3px;
       border-radius: 20px;
       background: linear-gradient(45deg, hwb(208 61% 15%), #b4dbe8, #ebf1f3);
     }
+    .wrap {
+  height: 100%; 
 
+  
+}
+
+.card_pro {
+  display: flex;
+  flex: 0 0 auto;
+  background: #fff;
+  max-width:750px;
+  margin: 80px 0;
+  float: left;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 5px 0px,
+    rgba(0, 0, 0, 0.5) 0px 2px 15px 0px;
+    }
+  
+.card2 {
+  display: flex;
+  flex: 0 0 auto;
+  background: #fff;
+  max-width: 750px;
+  margin: 80px 0;
+  float: right;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 5px 0px,
+    rgba(0, 0, 0, 0.5) 0px 2px 15px 0px;
+    }
+.card-pic-wrap {
+  border-radius: b-r 0 0 b-r;
+  width: 300px;
+  height: 340px;
+  flex: 0 0 auto;
+  position: relative;
+  background:#d8ddd5 ;
+  
+}
+.card-pic-wrap:hover{
+    border-radius: 50px;
+}
+.card-pic-wrap img {
+    position: absolute;
+    bottom: 3em;
+    left: 50%;
+    margin-left: -175px;
+    width:360px;
+  }
+  .card-pic-wrap #img2 {
+    position: absolute;
+    bottom: 3em;
+    left: 50%;
+    margin-left: -175px;
+    width: 360px;
+  }
+.card-content {
+  padding: 3em 4em 2em;
+}
+#nava {
+  background: #8dc26f;
+  color: #fff;
+  padding: 0 25px;
+  height: 50px;
+  font-size: 0.8em;
+  letter-spacing: 1px;
+  line-height: 50px;
+  display: inline-block;
+  border-radius: 25px;
+  text-decoration: none;
+  margin-top: 1.5em;
+  text-transform: uppercase;
+  border: 1px solid rgba(0,0,0,0.1);
+  &:hover {
+    background-color: #70a751;
+  }
+}
     </style>
 </head>
 <body>
@@ -608,6 +681,7 @@ padding: 3px;
             <nav class="navbar">
               <h2 class='name'>Sanskar Gupta</h2>
               <ul class="navbar__ul">
+               
                 <li class='link'><a href="#home">Home</a></li>
                 <li class='link'><a href="#education">Education</a></li>
                 <li class='link'><a href="#portfolio">Projects</a></li>
@@ -616,20 +690,21 @@ padding: 3px;
                
                 </ul>
             </nav>
+            
             <div class="header__container">
-   <img class="round-image"  src="https://i.ibb.co/V9HWtBq/Whats-App-Image-2023-04-07-at-13-01-01.jpg" alt="err" id="img">
+   <img class="round-image"  src="https://i.ibb.co/V0PFZR8W/IMG-20250111-093859-929.webp" alt="err" id="img">
 
                 <div class="header__text__container">
-                <p class="header__text">Hi! I am a front-end designer and developer. Here, I've created my portfolio template which is responsive across different browsers and devices.</p><br>
-                <a href="templ/SANSKAR.Hi! I am a front-end designer and developer. Here, I've created my portfolio template which is responsive across different browsers and devicesHi! I am a front-end designer and developer. Here, I've created my portfolio template which is responsive across different browsers and devicesdocx" id="download">Download CV</a>
+                <p class="header__text">Motivated Cloud Support Associate with expertise in AWS, Linux administration, and web development. Skilled in deploying and managing cloud solutions, optimizing server performance, and ensuring system reliability. Dedicated to providing efficient and scalable solutions through strong technical and problem-solving abilities.</p><br>
+                <a href="https://drive.google.com/file/d/1EAgGYuyZ3SxovtD0xS1CHT1nwjzaahf2/view?usp=sharing" id="download">Download CV</a>
               </div>
             </div>
           </header>
         </div><br>
         <div id="edudiv"><br>
+         
         <h2 id="eh">Education</h2>
         <br> 
-        <img src="https://i.pinimg.com/564x/20/2b/86/202b86a4a8eb61d6fca5e606b1eaa024.jpg" alt="err" id="img1">  
 
         <section class='edu' id='education'>
          
@@ -637,50 +712,97 @@ padding: 3px;
           <p>SAGE UNIVERSITY ,BHOPAL
          <a href="https://sageuniversity.edu.in/"><img src="https://img.icons8.com/material-outlined/512/circled-up-right.png" alt="err" height="20px" width="20px"> </a>
         </p>
-         <p>(2022-2025)</p><br>
-         <h3>Certification</h3><br>
-         <h4>Cyber Security (15/03/2023-15/04/2023)</h4><br>
-         <li>By completing this Cybersecurity certification course, I have gained a deep understanding of the latest cyber threats and how to prevent them.</li><br>
-         <li>This certification has not only expanded my knowledge but also demonstrated my commitment to the field, making me a valuable asset to any organization seeking to strengthen their cybersecurity defenses.</li><br>
-         
-        </div>
+        <p>(2022-2025)</p><br>
+        <h3>Certification & Achievements</h3><br>
 
-
-        <main class="portfolio" id='portfolio'>
-          <h2 class='portfolio__header'>Projects</h2>
-          <div class="portfolio__container">
+        <div class="portfolio__container">
             <article class='card'>
               <img src='https://cdn-icons-png.flaticon.com/512/3437/3437297.png' alt="page">
               <div class="text-container">
-            <a href="https://github.com/sanskargupta12/PBL-sem-1"><h2>CV Editing</h2></a>
-            <h3>HTML ,CSS ,JS ,PHP </h3>
-                <li>This project helps youth to make their own CV's on online platform.</li>
-                <li>And also you can refer to this project in my github profile.</li>
-                
+            <h2>The Linux Foundation</h2>
+                <li>Earned a prestigious Linux Foundation certification, demonstrating expertise in Linux system administration, cloud integration, and shell scripting.</li>
+                <li>Strengthens cloud computing skills, supporting proficiency in AWS practices for scalable and secure system management.</li>
+
               </div>
             </article>
       
             <article class='card'>
-              <img src='https://cdn-icons-png.flaticon.com/512/5956/5956494.png' alt="gallery">
+              <img src='https://i.ibb.co/vvjQTpCQ/images-q-tbn-ANd9-Gc-Rrty3fcqb-NFPh0b-Am-FRt7-RHHG3ccby3-JXRaot-S6-ODs-MUx0-Diw.jpg' alt="gallery">
               <div class="text-container">
-               <a href="https://github.com/sanskargupta12/hit-and-miss-game"> <h2>Hit & Miss Game</h2></a>
-               <h3>C++</h3>
-                <li>The game continues until the player has successfully hit all four ships, and the program keeps track of the number of turns it takes for the player to win.</li><li>The game outputs a victory message with the number of turns it took to win.</li>
+               <h2>Oracle Certified Foundation Associate</h2>
+                <li>Achieved Oracle Certified Foundation Associate certification, showcasing fundamental expertise in Oracle Cloud infrastructure and database management.</li>
+                <li>Enhances cloud computing proficiency, reinforcing skills in cloud services, databases, and enterprise solutions for scalable application development.
+                </li>
               </div>
             </article>
       
             <article class='card'>
-              <img src='https://cdn-icons-png.flaticon.com/512/891/891175.png' alt="Calculator">
+              <img src='https://imechinstitute.com/wp-content/uploads/2023/06/icons-07.png' alt="Calculator">
               <div class="text-container">
-               <a href="https://github.com/sanskargupta12/calculator"> <h2>Calculator</h2></a>
-               <h3>C++</h3>
-                <li>This calclator is based on C++ language.</li><li> It first take input by the as what operation he want to perform then it will ask for values then it will display the output.</li>  
+              <h2>Cyber Security Certificate</h2>
+                <li>Completed the "Basics of Cybersecurity" course, gaining foundational knowledge in network security, threat prevention, and data protection.</li>
+                <li> Strengthens expertise in secure system management, aligning with cloud computing and DevOps best practices.</li>  
                
                 </p>
               </div>
             </article>
           </div>
-      
+         
+        </div>
+        <main class="portfolio" id='portfolio'>
+
+        <div class="wrap" id="wrap">
+            <h2 id="eh">PROJECTS</h2>
+        
+            <div class="card_pro">
+              <div class="card-pic-wrap">
+                <img src="https://i.ibb.co/RT5vnqhw/Screenshot-2025-02-09-125140.png" alt="A leafy plant">
+        
+              </div>
+              <div class="card-content">
+                <h3>Ayur Scan </h3>
+                <p>AyurScan is an AI-powered web app that identifies Ayurvedic and non-Ayurvedic leaves. It helps users recognize medicinal plants with accuracy, aiding in herbal research and traditional medicine. The platform promotes Ayurveda by providing instant classification, making it useful for students & researchers.</p>
+                <p><a href="https://sanskargupta12.github.io/AyurScan/" id="nava">Ayur Scan</a></p>
+              </div>
+            </div>
+        
+            <div class="card2">
+              <div class="card-pic-wrap">
+                <img src="https://i.ibb.co/Q7mLgfh1/Screenshot-2025-02-09-125035.png"  id="img2" alt="Some pointy plants">
+              </div>
+              <div class="card-content">
+                <h3>Resin Art & Deco</h3>
+                <p>Resin Art & Deco is an e-commerce platform showcasing handcrafted resin art and decorative pieces. It offers a variety of unique designs, from home décor to personalized gifts. The platform connects artists with buyers, making resin art accessible and inspiring creativity.
+                </p>
+                <p><a href="#0"id="nava">Resin Art & Deco</a></p>
+              </div>
+            </div>
+
+            <div class="card_pro">
+                <div class="card-pic-wrap">
+                  <img src="https://i.ibb.co/3q0xKr7/Screenshot-2025-02-09-131233.png" alt="A leafy plant">
+          
+                </div>
+                <div class="card-content">
+                  <h3>Medicure </h3>
+                  <p>Medicure is a healthcare web platform that predicts diseases based on symptoms and recommends doctors and hospitals. It provides real-time Covid-19 updates and features an intelligent search system, making healthcare more accessible and efficient for users.</p>
+                  <p><a href="https://medicure-pi.vercel.app/" id="nava">Medicure</a></p>
+                </div>
+              </div>
+          
+              <div class="card2">
+                <div class="card-pic-wrap">
+                  <img src="https://i.ibb.co/TM3KmZpY/Screenshot-2025-02-09-131417.pngg"  id="img2" alt="Some pointy plants">
+                </div>
+                <div class="card-content">
+                  <h3>Litho</h3>
+                  <p>Litho is an interior design showcase website featuring inspiring blogs and creative décor ideas. Built with HTML, CSS, and JavaScript, it offers a seamless user experience, helping design enthusiasts explore trends, tips, and innovative styling concepts.
+                  </p>
+                  <p><a href="https://litho-three.vercel.app/"id="nava">Litho</a></p>
+                </div>
+              </div>
+         </div>
+         
           <section class='skills' id='skills'>
             <h2>Skills</h2><br><br>
             <article class="skills-container">
@@ -700,8 +822,20 @@ padding: 3px;
               </div>
              
               <div class="skills__item" data-aos='fade-up'>
-                <img src="https://hrcdn.net/fcore/assets/work/header/hackerrank_logo-21e2867566.svg" id="hacker" alt="hackerrank">
-                <p>HACKERRANK</p>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Amazon_Web_Services_Logo.svg/1280px-Amazon_Web_Services_Logo.svg.png" id="hacker" alt="hackerrank">
+                <p>AWS</p>
+              </div>
+              <div class="skills__item" data-aos='fade-up'>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Tux.svg/1200px-Tux.svg.png" id="hacker" alt="hackerrank">
+                <p>Shell</p>
+              </div>
+              <div class="skills__item" data-aos='fade-up'>
+                <img src="https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png" id="hacker" alt="hackerrank">
+                <p>ReactJS</p>
+              </div>
+              <div class="skills__item" data-aos='fade-up'>
+                <img src="https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png" id="hacker" alt="hackerrank">
+                <p>Git</p>
               </div>
             </article>
           </section>
